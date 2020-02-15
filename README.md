@@ -1,4 +1,29 @@
 # Vue Lazysizes Directive
-## If you use Lazysizes [GitHub - aFarkas/lazysizes: High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, that detects any visibility changes triggered through user interaction, CSS or JavaScript without configuration.](https://github.com/aFarkas/lazysizes)
+## If you use [Lazysizes](https://github.com/aFarkas/lazysizes)
 
-## This vue-directive updates img elements if src* attributes are dynamic
+## This vue-directive updates img element if src* attributes are dynamic
+
+## Common usage
+
+### Install package
+```
+yarn add vue-lazysizes
+```
+
+### Script section of SFC
+```javascript
+<script>
+import vue-lazysizes from 'vue-lazysizes';
+
+export default {
+  directives: {
+    lazysizes: vue-lazysizes
+  },
+}
+</script>
+```
+
+### Template section
+```html
+<img v-lazysizes :data-src="dynamicSrc" :data-srcset="dynamicSrcset" />
+```
