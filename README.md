@@ -1,7 +1,5 @@
 # Vue Lazysizes Directive
-## If you use [Lazysizes](https://github.com/aFarkas/lazysizes)
-
-## This vue-directive updates img element if src* attributes are dynamic
+## If you use [Lazysizes](https://github.com/aFarkas/lazysizes) this vue-directive updates img element if src* attributes are dynamic
 
 ## Common usage
 
