@@ -1,8 +1,9 @@
 {
   "name": "vue-lazysizes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "vue-lazysizes.js",
   "author": "dnmtvf <dnmtvf@gmail.com>",
   "license": "MIT",
-  "keywords": ["lazysizes", "vue", "vue-directive"]
+  "keywords": ["lazysizes", "vue", "vue-directive"],
+  "homepage": "https://github.com/dnmtvf/vue-lazysizes"
 }
