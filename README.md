@@ -1,5 +1,5 @@
 # Vue Lazysizes Directive
-## If you use [Lazysizes](https://github.com/aFarkas/lazysizes) this vue-directive updates img element if src* attributes are dynamic
+## If you use [Lazysizes](https://github.com/aFarkas/lazysizes) this vue-directive updates img element if src attribute is dynamic
 
 ## How to use
 
@@ -11,11 +11,11 @@ yarn add vue-lazysizes
 ### Script section of SFC
 ```javascript
 <script>
-import vue-lazysizes from 'vue-lazysizes';
+import vueLazysizes from 'vue-lazysizes';
 
 export default {
   directives: {
-    lazysizes: vue-lazysizes
+    lazysizes: vueLazysizes
   },
 }
 </script>
@@ -23,5 +23,5 @@ export default {
 
 ### Template section
 ```html
-<img v-lazysizes :data-src="dynamicSrc" :data-srcset="dynamicSrcset" />
+<img v-lazysizes :data-src="dynamicSrc" />
 ```
